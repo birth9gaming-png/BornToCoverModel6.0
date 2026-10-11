@@ -1,0 +1,11 @@
+__pycache__/
+.cache/
+.venv/
+.streamlit/secrets.toml
+full_slate.json
+football_complete_workspace.json
+football_model_snapshot.json
+cfb_historical_dataset.json
+cfb_trained_model.json
+nfl_historical_dataset.json
+nfl_trained_model.json

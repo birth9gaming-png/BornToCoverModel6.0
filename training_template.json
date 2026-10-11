@@ -1,0 +1,24 @@
+{
+  "format": "pregame-feature-training-collection-v1",
+  "purpose": "Empty collection schema for historical feature engineering; not a raw-CSV importer or trained model.",
+  "required_feature_rule": "All inputs must be based only on information available before kickoff. Final scores are targets only.",
+  "games": [
+    {
+      "game_id": null,
+      "league": null,
+      "season": null,
+      "kickoff": null,
+      "away_team": null,
+      "home_team": null,
+      "neutral": null,
+      "feature_through_week": null,
+      "features_observed_at": null,
+      "reconstructed_from_prior_games": null,
+      "away": {"y": null, "dy": null, "s": null, "ds": null, "x": null, "dx": null, "p": null, "t": null, "sample_games": null, "ofei": null, "dfei": null, "fei_through_week": null, "returning_starters_off": null, "returning_starters_def": null, "portal_net_rating": null},
+      "home": {"y": null, "dy": null, "s": null, "ds": null, "x": null, "dx": null, "p": null, "t": null, "sample_games": null, "ofei": null, "dfei": null, "fei_through_week": null, "returning_starters_off": null, "returning_starters_def": null, "portal_net_rating": null},
+      "market": {"away_handicap": null, "total": null, "book": null, "odds_away": null, "odds_home": null, "odds_over": null, "odds_under": null, "quote_observed_at": null, "closing_line_benchmark": null},
+      "targets": {"actual_away_score": null, "actual_home_score": null},
+      "sources": []
+    }
+  ]
+}

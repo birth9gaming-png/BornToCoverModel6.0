@@ -1,0 +1,66 @@
+{
+  "format": "nfl-layer-inputs-v1",
+  "team_metrics": [],
+  "weather": [],
+  "players": [],
+  "player_games": [],
+  "attd_quotes": [],
+  "instructions": "This template imports no fabricated metrics. Copy a schema row into the corresponding top-level array and replace every value with your actual provider data. Read nfl_layers_guide.md for units and cutoff rules.",
+  "schema_examples_only_not_imported": {
+    "team_metrics": {
+      "team": "BUF",
+      "season": 2026,
+      "through_week": 5,
+      "as_of": "2026-10-10T12:00:00Z",
+      "source": "Your actual DVOA / trenches provider",
+      "offensive_dvoa": 15.0,
+      "defensive_dvoa": -8.0,
+      "total_dvoa": 22.0,
+      "non_blitz_pressure_rate": 0.3,
+      "adjusted_line_yards": 4.5,
+      "defensive_adjusted_line_yards": 4.1,
+      "redzone_defensive_dvoa": -5.0
+    },
+    "weather": {
+      "game_id": "REPLACE_WITH_YOUR_GAME_ID",
+      "forecast_wind_mph": 16.0,
+      "weather_as_of": "2026-10-10T12:00:00Z",
+      "roof": "outdoors"
+    },
+    "players": {
+      "player_id": "REPLACE_WITH_PLAYER_ID",
+      "name": "Your player",
+      "team": "BUF",
+      "position": "RB",
+      "depth_rank": 1,
+      "status": "ACT",
+      "projected_opportunities": 15.0,
+      "projected_xTD": 0.6,
+      "recency_verified": true
+    },
+    "player_games": {
+      "player_id": "REPLACE_WITH_PLAYER_ID",
+      "game_id": "REPLACE_WITH_PRIOR_GAME_ID",
+      "team": "BUF",
+      "week": 4,
+      "kickoff": "2026-09-27T17:00:00Z",
+      "active": true,
+      "completed": true,
+      "touchdowns": 0,
+      "carries": 15,
+      "targets": 3,
+      "xTD": 0.6,
+      "redzone_targets": 1,
+      "team_redzone_targets": 5,
+      "redzone_touches": 3,
+      "team_redzone_touches": 6
+    },
+    "attd_quotes": {
+      "player_id": "REPLACE_WITH_PLAYER_ID",
+      "game_id": "REPLACE_WITH_YOUR_GAME_ID",
+      "book": "Your sportsbook",
+      "odds": 150,
+      "quoted_at": "2026-10-10T12:00:00Z"
+    }
+  }
+}
